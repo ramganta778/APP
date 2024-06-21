@@ -31,7 +31,7 @@ function SignUp() {
       body: dataToSend,
     };
 
-    let JSONData = await fetch("http://localhost:9441/register", reqOptions);
+    let JSONData = await fetch("/register", reqOptions);
 
     let JSOData = await JSONData.json();
     // setProfilePic(JSOData);

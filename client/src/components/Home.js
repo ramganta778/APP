@@ -13,7 +13,7 @@ function Home() {
       <h1>
         Welcome! {storeObj.userDetails.firstName} {storeObj.userDetails.lastName}
       </h1>
-      <img src={`http://localhost:9441/${storeObj.userDetails.profilePic}`}></img>
+      <img src={`/${storeObj.userDetails.profilePic}`}></img>
     </div>
   );
 }
